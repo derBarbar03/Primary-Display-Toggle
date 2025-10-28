@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 REM Pfad zur CSV-Datei
-set "CSVDatei=C:\Users\derba\Documents\MultiMonitorTool\test_monitors.csv"
+set "CSVDatei=%USERPROFILE%\Documents\MultiMonitorTool\test_monitors.csv"
 
 REM Export monitor info to a CSV file (Fehler unterdrücken)
 .\MultiMonitorTool.exe /scomma "%CSVDatei%" >nul 2>nul
